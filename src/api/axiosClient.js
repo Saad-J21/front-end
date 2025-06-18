@@ -5,6 +5,7 @@ const axiosClient = axios.create({
   baseURL: 'https://36c8-2a02-ff0-3316-d1f1-5f3e-ca4d-b042-4bb9.ngrok-free.app/api', // This will proxy to http://localhost:8080/api thanks to package.json proxy
   headers: {
     'Content-Type': 'application/json',
+    'ngrok-skip-browser-warning': 'true',
   },
 });
 

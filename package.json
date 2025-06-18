@@ -2,7 +2,7 @@
   "name": "my-ecommerce-frontend-react",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:8080",
+  "proxy": "https://36c8-2a02-ff0-3316-d1f1-5f3e-ca4d-b042-4bb9.ngrok-free.app",
   "dependencies": {
     "@stripe/react-stripe-js": "^3.7.0",
     "@stripe/stripe-js": "^7.3.1",
